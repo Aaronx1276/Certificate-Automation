@@ -28,8 +28,15 @@ Before running the project, ensure you have the following installed:
    - **Pillow** (for image processing)
    - **Tkinter** (built into Python)
 
-To install Pillow, use:
-```bash
-   pip install pillow
+## To install Pillow, use: 
 
-<pre> <code> ## How to Use ### Step 1: Prepare the Input Files 1. **Template File**: - Place your certificate template image in the project folder and name it `template.jpg`. - The template should have space reserved for the participant's name and event name. 2. **Participant Names**: - Create a `requirements.txt` file in the project folder. - Add the names of participants, one name per line. ### Step 2: Run the Project 1. Clone or download the repository. 2. Open a terminal in the project folder and run: ```bash python certificate_automation.py ``` 3. Enter the event name in the text box provided in the GUI. 4. Click the **Generate Certificates** button. ### Step 3: Check the Output - The certificates will be generated in the `certificates` folder within the project directory. - Each certificate will be named as `<participant_name>_certificate.jpg`. </code> </pre>
+## Prepare the input files:
+Template File:
+
+Place your certificate template image in the project folder and name it template.jpg.
+The template should have space reserved for the participant's name and event name.
+Participant Names:
+
+Create a requirements.txt file in the project folder.
+Add the names of participants, one name per line.
+
