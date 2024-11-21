@@ -31,12 +31,9 @@ Before running the project, ensure you have the following installed:
 ## To install Pillow, use: 
 
 ## Prepare the input files:
-Template File:
-
-Place your certificate template image in the project folder and name it template.jpg.
-The template should have space reserved for the participant's name and event name.
-Participant Names:
-
-Create a requirements.txt file in the project folder.
-Add the names of participants, one name per line.
-
+1. Template File:
+- Place your certificate template image in the project folder and name it template.jpg.
+- The template should have space reserved for the participant's name and event name.
+2. Participant Names:
+- Create a requirements.txt file in the project folder.
+- Add the names of participants, one name per line.
