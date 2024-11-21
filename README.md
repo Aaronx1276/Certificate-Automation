@@ -77,7 +77,8 @@ Certificates in the certificates folder:
 - Charlie Brown_certificate.jpg
 
 ## Screenshot
-![image](https://github.com/user-attachments/assets/4cdaf340-9b34-45ec-8831-2df50af64c4a)
+![image](https://github.com/user-attachments/assets/a3a01cdf-7626-41fa-8cfc-dfb390eaac63)
+
 
 ## Contributions
 Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request.
