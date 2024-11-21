@@ -28,7 +28,15 @@ Before running the project, ensure you have the following installed:
    - **Pillow** (for image processing)
    - **Tkinter** (built into Python)
 
-## To install Pillow, use: 
+ **To install Pillow, use**: 
+```bash
+pip install pillow
+```
+
+**To install Tkinter, use**:
+```bash
+pip install tk
+```
 
 ## Prepare the input files:
 1. Template File:
@@ -37,3 +45,40 @@ Before running the project, ensure you have the following installed:
 2. Participant Names:
 - Create a requirements.txt file in the project folder.
 - Add the names of participants, one name per line.
+
+## Run this Project:
+1. Clone or download the repository.
+2. Open a terminal in the project folder and run:
+   ```bash
+   python certificate_automation.py
+   ```
+3. Enter the event name in the text box provided in the GUI.
+4. Click the Generate Certificates button.
+
+## Check the Output:
+- The certificates will be generated in the certificates folder within the project directory.
+- Each certificate will be named as <participant_name>_certificate.jpg.
+
+## Example:
+**Input**:
+requirements.txt:
+```bash
+Alice Johnson
+Bob Smith
+Charlie Brown
+```
+Event Name: "Python Workshop"
+
+**Output**:
+Certificates in the certificates folder:
+
+- Alice Johnson_certificate.jpg
+- Bob Smith_certificate.jpg
+- Charlie Brown_certificate.jpg
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/4cdaf340-9b34-45ec-8831-2df50af64c4a)
+
+## Contributions
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+
